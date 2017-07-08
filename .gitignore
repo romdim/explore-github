@@ -41,4 +41,9 @@ src/
 test/
 build/
 config/
-dist/
+dist/launcher
+dist/static
+dist/sw
+dist/sw.js
+dist/manifest.json
+dist/index*
