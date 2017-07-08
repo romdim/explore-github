@@ -37,3 +37,8 @@ jspm_packages
 .node_repl_history
 .idea/
 e2e
+src/
+test/
+build/
+config/
+dist/
