@@ -1,5 +1,7 @@
 # explore-github
 
+This is *DEMO* branch, just copy from /dist folder to your root folder in this branch after you build in *master* branch.
+
 [![License](https://img.shields.io/github/license/mazipan/explore-github.svg?maxAge=3600)](https://github.com/mazipan/explore-github) 
 [![Github Issue](https://img.shields.io/github/issues/mazipan/explore-github.svg?maxAge=3600)](https://github.com/mazipan/explore-github/issues) 
 [![GitHub Fork](https://img.shields.io/github/forks/mazipan/explore-github.svg?maxAge=3600)](https://github.com/mazipan/explore-github/network) 
