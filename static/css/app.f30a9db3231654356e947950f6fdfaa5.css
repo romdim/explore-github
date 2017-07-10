@@ -1,4 +1,121 @@
 
+.empty-state[data-v-afdb816e] {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 100px;
+  color: #ccc;
+}
+
+.profile[data-v-35e764a4] {
+  text-align: center;
+  color: #282828;
+}
+.profile__img[data-v-35e764a4] {
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #0096d9;
+}
+.profile__identity[data-v-35e764a4], .profile__bio[data-v-35e764a4] {
+    margin-bottom: 10px;
+}
+.profile__name[data-v-35e764a4] {
+    font-size: 24px;
+    margin: 10px 0 0px;
+}
+.profile__login[data-v-35e764a4] {
+    color: #a49c9c;
+    font-size: 16px;
+}
+.is-bookmarked[data-v-35e764a4] {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+}
+.is-bookmarked--yes[data-v-35e764a4] {
+    color: #0096d9;
+}
+
+.action[data-v-0eeffafa] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: table;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid grey;
+  background: #0096d9;
+}
+.action__tab[data-v-0eeffafa] {
+    width: 25%;
+    display: table-cell;
+    text-align: center;
+}
+.action__link[data-v-0eeffafa] {
+    position: relative;
+    display: block;
+    padding: .7em 1.3em;
+    color: #fff;
+    text-decoration: none;
+}
+.action__icon[data-v-0eeffafa] {
+    font-size: 24px;
+}
+.action__badge[data-v-0eeffafa] {
+    font-size: 12px;
+    padding: 2px 5px;
+    line-height: 1;
+    background-color: rgba(27, 31, 35, 0.08);
+    border-radius: 20px;
+}
+
+.repos[data-v-657be59c] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px #d1d5da solid;
+  border-radius: 3px;
+  margin: 0 0 60px;
+}
+.repo .octicon[data-v-657be59c] {
+  color: #282828;
+  top: 14px;
+  left: 12px;
+  width: 16px;
+  text-align: center;
+  vertical-align: bottom;
+}
+.repo:first-child a[data-v-657be59c] {
+  border-top: 0;
+}
+.repo a[data-v-657be59c] {
+  position: relative;
+  display: block;
+  padding: 14px 15px 14px 14px;
+  line-height: inherit;
+  text-align: left;
+  color: #0096d9;
+  text-decoration: none;
+  border-top: 1px solid #eaecef;
+}
+.repo__name[data-v-657be59c] {
+  display: inline-block;
+  width: 70%;
+  line-height: 1.2;
+  vertical-align: top;
+  word-wrap: break-word;
+}
+.star[data-v-657be59c] {
+  float: right;
+  margin-bottom: 3px;
+  margin-right: 25px;
+  font-size: 12px;
+  color: #6a737d;
+}
+
 .fade-enter-active[data-v-724f5e9c], .fade-leave-active[data-v-724f5e9c] {
   transition: opacity .2s ease;
 }
