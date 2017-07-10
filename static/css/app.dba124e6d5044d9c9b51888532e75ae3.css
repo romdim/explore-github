@@ -116,10 +116,14 @@
   color: #6a737d;
 }
 
-.fade-enter-active[data-v-724f5e9c], .fade-leave-active[data-v-724f5e9c] {
-  transition: opacity .2s ease;
+.slide-fade-enter-active[data-v-724f5e9c] {
+  transition: all .3s ease;
 }
-.fade-enter[data-v-724f5e9c], .fade-leave-active[data-v-724f5e9c] {
+.slide-fade-leave-active[data-v-724f5e9c] {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.slide-fade-enter[data-v-724f5e9c], .slide-fade-leave-to[data-v-724f5e9c] {
+  transform: translateX(10px);
   opacity: 0;
 }
 .sidebar-cover[data-v-724f5e9c] {
