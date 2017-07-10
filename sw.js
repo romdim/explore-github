@@ -1,7 +1,7 @@
 (global => {
   'use strict';
 
-  var versionCache = '0.1'
+  var versionCache = '-v0.0.1'
 
   // Load the sw-tookbox library.
   importScripts('/explore-github/sw/sw-toolbox.js');
@@ -63,6 +63,14 @@
       maxEntries: 200,
     },
     origin: /\.githubusercontent\.com$/
+  });
+  toolbox.router.get('/(.*)', global.toolbox.cacheFirst, {
+    cache: {
+      name: 'githubapi',
+      maxEntries: 200,
+      maxAgeSeconds: 60 * 60 * 48,
+    },
+    origin: /\.github\.com$/
   });
 
   // Boilerplate to ensure our service worker takes control of the page as soon as possible.
