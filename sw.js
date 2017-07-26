@@ -1,7 +1,7 @@
 (global => {
   'use strict';
 
-  var versionCache = '-v0.0.3'
+  var versionCache = 'ExploreGithub-v20170726-1127'
 
   // Load the sw-tookbox library.
   importScripts('/explore-github/sw/sw-toolbox.js');
