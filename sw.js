@@ -1,7 +1,11 @@
 (global => {
   'use strict';
 
-  var versionCache = 'ExploreGithub-v20170726-1127'
+  var now = new Date();
+  var onejan = new Date(now.getFullYear(), 0, 1);
+  var week = Math.ceil( (((now - onejan) / 86400000) + onejan.getDay() + 1) / 7 );
+  var ver = now.toISOString().substring(0, 7);
+  var versionCache = '-ExploreGH-' + ver + '-' + week
 
   // Load the sw-tookbox library.
   importScripts('/explore-github/sw/sw-toolbox.js');
